@@ -1,9 +1,8 @@
 <?php
 
 /* zScore Normalizer Algorithm
- * Lincensed to M. Wiguna Saputra
  * Copyright (c) 2019
- * https://github.com/mwiguna
+ * https://github.com/mwiguna/zscore
  */
 
   function zScore($data){
@@ -90,7 +89,7 @@
         <tr>
           <td><?= $tahun[$i] ?></td>
           <?php foreach ($data as $val): ?>
-              <td style=""><?= $val ?></td>
+              <td><?= $val ?></td>
           <?php endforeach ?>
         </tr>
       <?php $i++; endforeach; ?>
